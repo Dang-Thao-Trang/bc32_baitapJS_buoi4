@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>baitap_buoi4</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  <body>
+<div class="container">
+    <div class="card w-50">
+        <div class="card-header">
+            <h3>Bài 1: Người dùng nhập 3 số nguyên, sắp xếp theo thứ tự tăng dần</h3>
+        </div>
+        <div class="card-body">
+            <input id="interger1" class="form-control my-2" placeholder="Số nguyên thứ nhất">
+            <input id="interger2" class="form-control my-2" placeholder="Số nguyên thứ hai">
+            <input id="interger3" class="form-control my-2" placeholder="Số nguyên thứ ba">           
+        </div>
+        <div class="card-footer">
+            <button onclick="al()" class="btn btn-warning">Enter</button>
+            <div class="alert alert-success">Sắp xếp tăng dần
+                <span id="resultArrange"></span>
+            </div>
+        </div>
+    </div>
+</div>
+<br>
+<hr>
+<div class="container">
+    <div class="card w-50">
+        <div class="card-header">
+            <h3>Bài 2: Nhập tên người sử dụng máy. Và xuất ra lời chào phù hợp</h3>
+        </div>
+        <div class="card-body">
+            <select id="user">
+                <option value="">Bạn là ai?</option>
+                <option value="bo">Bố</option>
+                <option value="me">Mẹ</option>
+                <option value="anh">Anh trai</option>
+                <option value="em">Em út</option>
+            </select>
+        <div class="card-footer mt-4">
+            <button id="btnName" class="btn btn-warning">Enter</button>
+            <div class="alert alert-success py-2">
+                <span id="name"></span>
+            </div>
+        </div>
+    </div>
+</div>
+<br>
+<hr>
+<div class="container">
+    <div class="card w-50">
+        <div class="card-header">
+            <h3>Bài 3: Nhập 3 số nguyên. Xuất ra bao nhiêu số chẵn bao nhiêu số lẻ</h3>
+        </div>
+        <div class="card-body">
+            <input id="number1" class="form-control my-2" placeholder="Nhap so 1">
+            <input id="number2" class="form-control my-2" placeholder="Nhap so 2">
+            <input id="number3" class="form-control my-2" placeholder="Nhap so 3">
+        </div>
+        <div class="card-footer">
+            <button onclick="countNumber()" id="btnNumber" class="btn btn-warning">Count</button>
+            <div class="alert alert-success">
+                <span id="count"></span>
+            </div>
+        </div>
+    </div>
+</div>
+<br>
+<hr>
+<div class="container">
+    <div class="card">
+        <div class="card-header">
+            <h3>Bài 4: Cho user nhập 3 cạnh của tam giác. Xuất ra kết quả loại tam giác</h3>
+        </div>
+        <div class="card-body row">
+            <input id="canhA" class="form-control col-3 mx-2" placeholder="Cạnh a">
+            <input id="canhB" class="form-control col-3 mx-2" placeholder="Cạnh b">
+            <input id="canhC" class="form-control col-3 mx-2" placeholder="Cạnh c">
+        </div>
+        <div class="card-footer">
+            <button onclick="triangleWhat()" class="btn btn-warning">Enter</button>
+            <div class="alert alert-success">Đây là loại tam giác: 
+                <span id="triangle"></span>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+      
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="./foder-baitap/bt1.js"></script>
+    <script src="./foder-baitap/bt2.js"></script>
+    <script src="./foder-baitap/bt3.js"></script>
+    <script src="./foder-baitap/bt4.js"></script>
+    <script src="./foder-baitap/bt5.js"></script>
+  </body>
+</html>
